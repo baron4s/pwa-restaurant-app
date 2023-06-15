@@ -1,0 +1,211 @@
+.picture-detail__restaurant {
+  position: relative;
+  max-width: 100%;
+  height: 500px;
+  margin: 30px auto 20px;
+}
+
+.picture-detail__restaurant img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.restaurant-detail {
+  font-family: var(--font-secondary);
+}
+
+.restaurant-detail__name {
+  margin-bottom: 10px;
+}
+
+.restaurant-detail__description {
+  line-height: 2;
+  margin-top: 20px;
+}
+
+.restaurant-detail__ratingCity span {
+  padding-right: 25px;
+  font-weight: 500;
+}
+
+.restaurant-detail__ratingCity .city-name ::after {
+  content: '';
+  padding-right: 5px;
+}
+
+.restaurant-detail__ratingCity .city-name :first-child {
+  color: #a3bb98;
+}
+
+.restaurant-detail__name {
+  font-size: 35px;
+}
+
+.restaurant-menu {
+  font-family: var(--font-secondary);
+  margin-top: 4rem;
+}
+
+.restaurant-menu h2 {
+  font-size: 35px;
+  text-align: center;
+}
+
+.wrapper-restaurant-menu {
+  display: grid;
+  column-gap: 5rem;
+  justify-content: center;
+}
+
+.restaurant-menu__foods h3,
+.restaurant-menu__drinks h3 {
+  text-align: center;
+}
+
+.restaurant-menu__foods,
+.restaurant-menu__drinks {
+  margin-top: 2.5rem;
+}
+
+.list-foods li,
+.list-drinks li {
+  list-style: inside;
+  margin-top: 20px;
+  padding-bottom: 10px;
+  color: #ffff;
+  border-bottom: 1px solid #ffff;
+}
+
+.review-section {
+  border-radius: 10px;
+  width: 100%;
+  margin: 5rem auto;
+  padding: 20px;
+  font-family: var(--font-secondary);
+}
+
+.review-section h2 {
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+.review-section form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 20px;
+  font-family: var(--font-secondary);
+}
+
+.review-section label {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.review-section input,
+.review-section textarea {
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-family: var(--font-secondary);
+}
+
+.review-section input {
+  width: 30%;
+  min-height: 44px;
+}
+
+.review-section textarea {
+  display: inline-block;
+  height: 100px;
+  resize: none;
+}
+
+.review-section button {
+  margin-left: auto;
+  background-color: #4285f4;
+  background-color: #fd841f;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  padding: 8px;
+  cursor: pointer;
+  max-width: 60px;
+  min-height: 44px;
+  font-family: var(--font-secondary);
+}
+
+.review-section button:hover {
+  background-color: #f8760c;
+}
+
+.customer-reviews {
+  margin-top: 5rem;
+  font-family: var(--font-secondary);
+}
+
+.customer-reviews h2 {
+  font-size: 35px;
+  text-align: center;
+}
+
+.customer-reviews__card-list {
+  margin-top: 30px;
+  align-items: stretch;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.customer-reviews__card-item {
+  flex-grow: 1;
+  background-color: #333333;
+  font-size: 18px;
+  line-height: 1.8;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 20px;
+  z-index: 888;
+  box-shadow: 0px 4px 8px -2px, rgba(83, 86, 92, 0.08);
+}
+
+.name-customer {
+  margin: 15px 0;
+  display: flex;
+  align-items: center;
+  color: #f8760c;
+}
+
+.name-customer :first-child {
+  font-size: 40px;
+}
+
+.name-customer span {
+  padding-left: 10px;
+  font-size: 18px;
+}
+
+.like {
+  min-width: 44px;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #db0000;
+  position: absolute;
+  bottom: -20px;
+  right: -20px;
+  border-radius: 50%;
+  border: 0;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+}

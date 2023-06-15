@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="List restaurant di Indonesia buat kamu yang ingin cari tahu " />
+  <meta name="theme-color" content="#333333" />
+  <link rel="icon" href="./favicon.png" />
+  <link rel="manifest" href="./app.webmanifest" />
+  <title>Restaurant Apps Starter Project</title>
+  <script src="https://kit.fontawesome.com/771b662d74.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="app-bar d-flex justify-content-s-around" style="max-height: 70px">
+        <div class="brand">
+          <a href="#content" class="skip-content color-2">Menju Konten</a>
+          <p tabindex="0">Hunger Apps</p>
+        </div>
+        <div class="menu-icon">
+          <button aria-label="Tombol pembungkus menu item" class="mymenu" name="button-menu" id="hamburgerButton"><i
+              class="gg-menu"></i></button>
+        </div>
+        <nav class="menu d-flex">
+          <ul class="menu-list d-flex t-decor f-weight-1">
+            <li><a href="/" class="color-2 home active">Home</a></li>
+            <li><a href="#/favorite" class="color-2 favorite">Favorite</a></li>
+            <li><a href="https://www.instagram.com/rny.shpt/?hl=id" class="color-2 instagram">About us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <div class="container">
+    <hero-wrapper></hero-wrapper>
+  </div>
+  <main id="content"></main>
+  <footer>
+    <loader-spinner></loader-spinner>
+    <div class="container">
+      <div class="content-footer">
+        <hr class="row-footer" />
+        <span class="copyright" tabindex="0">Copyright&#169; 2023 - Hunger Apps</span>
+      </div>
+    </div>
+    <button aria-label="To top navbar" class="top" id="toTop">
+      <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+    </button>
+  </footer>
+</body>
+
+</html>
